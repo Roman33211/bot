@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-visualica-orange: #F27D26;
+  --color-visualica-dark: #1A1A1A;
+  --color-visualica-card: #262626;
+  --color-visualica-border: rgba(255, 255, 255, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-visualica-dark text-white antialiased;
+  }
+}
+
+.visualica-accent-line {
+  @apply border-l-2 border-visualica-orange pl-4;
+}
+
+.visualica-card {
+  @apply bg-visualica-card border border-visualica-border rounded-xl overflow-hidden;
+}
+
+.visualica-input {
+  @apply bg-visualica-dark border border-visualica-border rounded-lg px-4 py-2 focus:ring-2 focus:ring-visualica-orange outline-none transition-all;
+}
