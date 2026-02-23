@@ -1,0 +1,5 @@
+{
+  "name": "Visualica Telegram Bot Manager",
+  "description": "A management dashboard and backend for the Visualica Telegram Bot, handling FAQs, demo bookings, and lead qualification.",
+  "requestFramePermissions": []
+}
